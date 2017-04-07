@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:wave="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+    <ProgressBar
+        android:id="@+id/pro_test"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.john.waveview.WaveView
+        android:id="@+id/wave_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        wave:above_wave_color="@android:color/holo_blue_light"
+        wave:blow_wave_color="@android:color/holo_purple"
+        wave:wave_height="little"
+        wave:wave_hz="normal"
+        wave:wave_length="middle"></com.john.waveview.WaveView>
+
+</RelativeLayout>

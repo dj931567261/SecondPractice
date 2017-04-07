@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.cap.admin.secondpractice.Tools.MineView
+        android:id="@+id/mine_mine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.cap.admin.secondpractice.Tools.MineView>
+    <com.cap.admin.secondpractice.Tools.MineView
+        android:id="@+id/mine_mine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.cap.admin.secondpractice.Tools.MineView>
+    <com.cap.admin.secondpractice.Tools.MineView
+        android:id="@+id/mine_mine3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </com.cap.admin.secondpractice.Tools.MineView>
+    <com.cap.admin.secondpractice.Tools.MineView
+        android:id="@+id/mine_mine4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </com.cap.admin.secondpractice.Tools.MineView>
+    <com.cap.admin.secondpractice.Tools.MineView
+        android:id="@+id/mine_mine5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </com.cap.admin.secondpractice.Tools.MineView>
+    <com.cap.admin.secondpractice.Tools.MineView
+        android:id="@+id/mine_mine6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </com.cap.admin.secondpractice.Tools.MineView>
+
+</LinearLayout>

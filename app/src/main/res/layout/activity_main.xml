@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cap.admin.secondpractice.MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/sp_myTools"
+        android:background="@color/QwQ"
+        app:popupTheme="@style/ToolbarPopupTheme"
+        app:logo="@mipmap/ic_launcher"
+        app:title="QwQ"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+
+
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/sp_drLa"
+        android:layout_below="@+id/sp_myTools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/sp_main_drLa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="@color/QAQ"
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:text="sec页"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:background="@color/QwQ"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/first_ye"
+                    android:clickable="true"
+                    android:background="@drawable/item_pr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="第一页"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/second"
+                    android:clickable="true"
+                    android:background="@drawable/item_pr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="第二页"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/three"
+                    android:clickable="true"
+                    android:background="@drawable/item_pr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="第三页"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>
